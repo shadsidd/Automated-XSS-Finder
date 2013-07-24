@@ -35,7 +35,7 @@ def attack(url, payload):
     #print "\n url",url
     #print "\n payload" ,payload
     #print "going to try\n"
-    #post_url='http://stage-web1.nm.flipkart.com/account/addresses'   # the url in which XSS test needs to be done and it is different from url where we posted params
+    #post_url='http://site.com'   # the url in which XSS test needs to be done and it is different from url where we posted params
     try:
         return_dict['method'] = 'GET'
         XSS_RESPONSE=payload
