@@ -16,7 +16,7 @@ intt=0
 # Vars
 protocol_secure = 'https://'
 protocol_nonsecure = 'http://'
-XSS_RESPONSE="alert('XSS')"
+#XSS_RESPONSE="alert('XSS')"
 
 # -------------------------------------
 def debug(message):
@@ -127,18 +127,19 @@ def login(openers):
     response_protocol="https://"
 
 
-    resp_url=response_protocol + config.get('general','base_url') + config.get('login','fk_url')
+    resp_url=response_protocol + config.get('general','base_url') + config.get('login','formkey_url')
     resp=openers['loggedin'].open(resp_url)
 
     #print "fk_url ",resp_url
     page=resp.read()
-    __FK = page[page.find("__FK"):].split("\"",4)[2] #for finding FK value
+    form_key=config.get('general','form_key') #define the form key paramter name within quotes
+    __FK = page[page.find(form_key):].split("\"",4)[2] #for finding FK value
     email=config.get('login', 'login_email')
     password=config.get('login', 'login_password')
     opener = openers['loggedin']
     url=response_protocol+config.get('general', 'base_url') + config.get('login', 'login_url')
     login_dict = {'request': {'mode': 'POST', 'url': url, 'use_ssl': 'true',
-                              'params': {'__FK': __FK,
+                              'params': {form_key: __FK,
                                          'email':email,
                                          'password': password}}}
     request_mode = login_dict['request']['mode']
@@ -247,7 +248,8 @@ def attackSequence(sites, payloads, openers):
         #print "\nfk_url-->",fk_url
         resp=opener.open(fk_url)
         page=resp.read()
-        __FK = page[page.find("__FK"):].split("\"",4)[2] #for finding FK value
+        form_key=config.get('general','form_key')
+        __FK = page[page.find(form_key):].split("\"",4)[2] #for finding FormKey value
 
         print "\nWorking...."
         #print len(payloads)
@@ -261,7 +263,7 @@ def attackSequence(sites, payloads, openers):
                 #print param_k
                 attack_dict = deepcopy(site_dict)
                 attack_dict['response']['xss_response']=payload
-                attack_dict['request']['params']['__FK'] =__FK
+                attack_dict['request']['params'][form_key] =__FK
                 #print "\n ------------->",attack_dict
                 attack_dict['request']['params'][param_k] = payload
 #                print i

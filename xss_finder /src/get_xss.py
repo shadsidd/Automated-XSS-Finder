@@ -13,7 +13,7 @@ MAX_THREAD_COUNT = 10
 SITES_FILENAME = 'sites'
 PAYLOADS_FILENAME = 'get_payload'
 SCHEME_DELIMITER = '://'
-XSS_RESPONSE = "alert('XSS')"
+#XSS_RESPONSE = "alert('XSS')"
 
 cj = cookielib.CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))

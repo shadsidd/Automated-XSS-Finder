@@ -32,7 +32,7 @@ filename="sites";
                     cat sites>>old_sites
                     > sites
                     python cli_param.py
-                    #python test_xss.py
+                    #python post_xss.py
                     #exit 1
             else
                 echo '\n Wrong Input'
@@ -52,4 +52,4 @@ filename="sites";
  else
  echo '\nWrong input re-run the script\n'
  fi
- python test_xss.py
+ python post_xss.py

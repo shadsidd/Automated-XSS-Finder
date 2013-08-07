@@ -8,4 +8,4 @@ if [ $size -eq '0' ]
         echo 'Running the configuration file  as there is no URL  to test '
         python cli_param.py
 fi
-python test_xss.py
+python post_xss.py

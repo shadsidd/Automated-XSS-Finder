@@ -16,5 +16,5 @@ input=str(raw_input("\nAre you sure you want to continue ?(Press N to change the
 if input=='Y' or input =='y':
     exit(1)
 else:
-        print "\n 1.Please make required changes in \".xss.cfg\" file . \n 2.Change the \"base_url\" to the URL (enviornment) you want to test\"\n 3.Change the login credentials \"email\" and \"password\" to valid ones \n 4.Save and re-run this script\n"
+        print "\n 1.Please make required changes in \"xss.cfg\" file . \n 2.Change the \"base_url\" to the URL (enviornment) you want to test\"\n 3.Change the login credentials \"email\" and \"password\" to valid ones \n 4.Save and re-run this script\n"
         exit (0)

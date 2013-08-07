@@ -1,0 +1,19 @@
+What to do in Config File:
+
+[genera]
+-Change the base URL to your website name with out the protocol (no http/https)
+-Leave "expected_xss_responses" blank to test for the payload being used
+-Please enter the form key parameter name in "form_key" (this script only work if there is one for key parameter name consistent thorough out the website)
+-multi threading some time leads to false positive , so better leave it to 1 (trade off accuracy over speed)
+
+[files]
+-after reading all the URL(s), parameter from command line in POST url everything is stored in "sites" file
+-in GET url case everything is stored in "get_sites" files
+-payload are define in "payloads" file
+
+[login]
+-"login_email" will contain your email id to be used while loggin you in
+-"login_password" will beyour password for the above email id
+-"login_url" would be the POST/GEt url where the email id and password have to be submitted with form key token for successful login
+-"formkey_url" would be the GET Url for the page from where the script has to fetch for key token.
+
