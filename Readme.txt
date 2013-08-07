@@ -9,19 +9,17 @@ The reason I started  with XSS  is because its most common vulnerability in our 
 How to use the script:
 
 1) Unzip the attached file  and change your current working directory to the folder you have unzipped in command prompt.
-2) In command prompt type "sh xss.sh"
-3) It will take you through a event driven menu to get the URL you want to test
-4) Then it will start testing the given URL ( It can take upto 1 - 5 minutes depending upon the no. of parameters and payload )
-5) If any of the parameter in URL is vulnerable then you will see it in command prompt else you will see "Nothing Found " message .
+2) Please read the "How_to" file for making config changes.
+3) In command prompt type "sh xss.sh"
+4) It will take you through a event driven menu to get the URL you want to test
+5) Then it will start testing the given URL ( It can take upto 1 - 5 minutes depending upon the no. of parameters and payload )
+6) If any of the parameter in URL is vulnerable then you will see it in command prompt else you will see "Nothing Found " message .
 
 Some dependencies/configuration:
-1)I currently have taken the csrf form token as __FK due to my private project will soon make changes to take it from user
-2)xss.cfg file contains basic configuration please make required changes there before running the script.
+1)xss.cfg file contains basic configuration please make required changes there before running the script.
 
 Hope this will make your life easier and will add extra layer of security ,so that everything can be tested with this first before being pushed to prod.
 
 Note:I would be releasing its web version soon with many changes.
 
 #Contact info:"m.shadab.sidd@gmail.com"
-
-
